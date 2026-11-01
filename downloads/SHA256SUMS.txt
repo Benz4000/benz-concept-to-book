@@ -4,3 +4,4 @@ f5ae1be76c3cd50e50a116e5c40e05f496c1c1d9057df7ebf61b4c5f9dfd66ce  concept-to-boo
 1657ca84ad5c8f39969844d688f2438bb4452fa90ae6f8c8d3788eec8a805a8e  concept-to-book-v4.0.1.zip
 57faffcbebe18709c65ff293cd7a032024e71d27ec423026561f76392535e575  concept-to-book-v5.0.0.zip
 a8b9abca3cff048aec190301ac56b228b9e8a00127a7d581df71e5c55da6b35e  concept-to-book-v6.0.0.zip
+98f778c5c7a18e3bcb75d5f0bc87fc6e00843b30b74fbd6bd0a9f53e92699d1a  concept-to-book-v7.0.0.zip

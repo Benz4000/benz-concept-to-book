@@ -2,6 +2,14 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V7 · 7.0.0 — Make dependencies clear
+
+- Follow a fifteen-step chronological route while retaining outcome responsibilities.
+- Establish cover choices early and assemble physical covers from real edition facts.
+- Keep independent editions and valid unrelated evidence separate during recovery.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v7.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v7.0.0/concept-to-book-v7.0.0.zip)
+
 ## V6 · 6.0.0 — Handle different books and sources
 
 - Select relevant project profiles and resolve source/adaptation conflicts.
