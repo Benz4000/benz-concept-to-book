@@ -6,15 +6,15 @@ Take a fiction idea through planning, drafting, revision and the book files you 
 
 For example, give Codex a traveller's story premise and ask for an outline, then develop the manuscript while keeping character continuity and a record of the references that shaped it. Resume an existing project at its actual stage.
 
-**Current: V5 · 5.0.0 — Make the workflow practical.** [Setup page](https://Benz4000.github.io/benz-concept-to-book/) · [Download this version](https://github.com/Benz4000/benz-concept-to-book/releases/download/v5.0.0/concept-to-book-v5.0.0.zip) · [Manual installation](INSTALL.md)
+**Current: V6 · 6.0.0 — Handle different books and sources.** [Setup page](https://Benz4000.github.io/benz-concept-to-book/) · [Download this version](https://github.com/Benz4000/benz-concept-to-book/releases/download/v6.0.0/concept-to-book-v6.0.0.zip) · [Manual installation](INSTALL.md)
 
 ## Start with Codex
 
 Copy this request into Codex:
 
 ```text
-Use skill-installer to install concept-to-book-v5 from
-https://github.com/Benz4000/benz-concept-to-book/tree/v5.0.0/skills/concept-to-book-v5
+Use skill-installer to install concept-to-book-v6 from
+https://github.com/Benz4000/benz-concept-to-book/tree/v6.0.0/skills/concept-to-book-v6
 Preserve an existing installation and ask before replacing it.
 ```
 
@@ -22,9 +22,9 @@ This is an installation request, not an automatic installer. Review it and any r
 
 ## What this update adds
 
-- Use ready project records and observable quality criteria.
-- Prioritize by downstream impact and run optional mechanical checks.
-- Integrate actual reader feedback and retain release/session recovery records.
+- Select relevant project profiles and resolve source/adaptation conflicts.
+- Track story time, character knowledge and reader disclosure separately.
+- Check available production capabilities and the requested reading formats.
 
 ## Use it at your actual stage
 
@@ -46,6 +46,7 @@ Ask for a concept, outline, manuscript, reading proof or requested production pa
 
 | Version | Focus | Stable downloads |
 |---|---|---|
+| V6 · 6.0.0 | Handle different books and sources | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v6.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v6.0.0/concept-to-book-v6.0.0.zip) |
 | V5 · 5.0.0 | Make the workflow practical | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v5.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v5.0.0/concept-to-book-v5.0.0.zip) |
 | V4 · 4.0.1 | Calibrate, preserve and learn | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v4.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v4.0.1/concept-to-book-v4.0.1.zip) |
 | V3 · 3.0.1 | Establish the foundation early | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v3.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v3.0.1/concept-to-book-v3.0.1.zip) |

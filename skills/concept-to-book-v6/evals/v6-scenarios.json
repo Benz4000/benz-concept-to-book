@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "purpose": "V6 blind text scenarios; provide only user_request and raw_inputs to executors. Actual local production/continuity tests are recorded separately outside reusable fixtures.",
+  "cases": [
+    {
+      "id": "v6-profile-source-variants",
+      "execution_status": "not-run",
+      "user_request": "Develop a four-scene outline from these materials and update our compact adaptation/source decision record. Choose the relevant workflow profile and explain which checks matter now. Preserve my preference for a voluntary choice and a companion with agency. Include a short proposed afterword note distinguishing our adaptation from the supplied versions. Outline-stage text only, under 650 words. No research, illustration or production work.",
+      "raw_inputs": {
+        "brief-F2.txt": "Original-world retelling for a standalone teen novella. Rian and companion Osa need to cross the fictional Glass Lake before the town's lamps go out. Dry warmth, no prescribed chapter count. The traveler must make a voluntary consequential choice; Osa must have her own aim and meaningful action. Working preference: the route around the lake interests me more than purchasing passage. No selected source version or outline yet. Today only four scenes and an adaptation record; final prose/art/formats are undecided.",
+        "source-A-excerpt.txt": "Supplied excerpt labeled The Glass Lake, edition A, anonymous fictional tale, translation/edition date not supplied: The ferryman asked the traveler for their name as payment. The traveler refused and walked around the lake, arriving after the lamps went dark. Only this excerpt is available; no full text or evidence of historical precedence is supplied.",
+        "source-B-note.txt": "Supplied teacher's note describing edition B of the same fictional tale: The traveler paid a glass coin for passage and forgot the road home. The note does not quote B's actual wording. Its original edition and translator are unavailable. This is a secondary account; no independent verification has occurred.",
+        "existing-source-record.txt": "SRC-A: supplied excerpt, read status not yet recorded. SRC-B: teacher note, read status not yet recorded. Old planning line says: 'The traditional version requires a coin and a name, then the traveler loses the road home.' This line was an unsourced combination of the two accounts. No claim about an actual culture or historical tradition is intended. Keep SRC-A/SRC-B IDs and the accepted brief preferences."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Produces four usable causal scenes with voluntary consequence, meaningful independent companion agency and an ending response to the lost light; new story details are labeled creative adaptation rather than sourced facts.",
+          "Selects a composable standalone/retelling/outline profile and limits records/checks to present needs; no fabricated print facts or mandatory art/production tasks.",
+          "Retains SRC-A/SRC-B and distinguishes actual excerpt reading from secondary-note reading and inaccessible original B; no fresh full-source read or cultural authority claim.",
+          "Corrects the combined traditional claim, preserves both variants separately, explains the bounded working adaptation choice against the brief, and keeps provenance/edition uncertainties visible.",
+          "Provides an actual short afterword proposal with accurate limited attribution and a source-to-decision-to-outline destination trail; does not imply the note is a verified quotation or choose authenticity by unsupported age/authority.",
+          "Reports actual outline/source comparison coverage and relevant completion checks, with unresolved later prose/reader/production validation left pending."
+        ],
+        "evidence_scope": "New outline and source/adaptation record from supplied invented texts; no original books, vault, external research, culture consultation, art or production output."
+      }
+    },
+    {
+      "id": "v6-flashback-state-and-reveal",
+      "execution_status": "not-run",
+      "user_request": "Fix the flashback passage and reconcile the conflicting scene/state notes. Preserve the accepted present-day material and the reveal in reading position 5. Give me the revised flashback, corrected compact continuity/knowledge entries, affected checks and source-use disclosure. Text only, under 650 words. Do not rewrite other scenes or pretend a whole manuscript or checker run occurred.",
+      "raw_inputs": {
+        "foundation-F7.txt": "Close third through Mara. Entity M. Topic KEY-HOLDER: her brother held the brass key; the reader first learns this in reading position 5. A character can know before the narration discloses it, but narration must preserve the stated reader boundary. Story-time values are ordinal chronology, not page numbers. Scope is this novella only.",
+        "accepted-canon.txt": "D-CLOAK: M wears amber from story_time 0 inclusive until 20 exclusive; slate blue from 20 onward. D-KNOW: M learns KEY-HOLDER at story_time 25; she does not know it earlier. The holder fact itself concerns an earlier event and does not establish when M knows it. All values are supplied fictional canon. Osa's clothing is not described and stays unknown.",
+        "scene-map.txt": "S1: story_time 30, read_order 1, present day, M's slate-blue cloak; she privately knows KEY-HOLDER, but this scene does not reveal it to the reader. S2: story_time 10, read_order 3, flashback, draft below. S5: story_time 26, read_order 5, established first reader disclosure of KEY-HOLDER. S1/S5 are accepted and not supplied as full text. Old flat sheet: 'M always wears blue; everyone knows her brother took the key.' This sheet conflicts with the dated canon and overstates others' knowledge.",
+        "S2-draft.txt": "Mara drew her slate-blue cloak around her and waited beside the empty hook. Her brother had the brass key; she had known it for years. She turned the ledger so the rain would miss its pages, then carried it to Osa at the gate.",
+        "check-history.txt": "R-S1: supplied record says S1 checked for concealment/appearance under F7, passed. R-S5: supplied record says the position-5 reveal checked, passed. There is no recorded S2 review, no full-text read and no structured JSON ledger/checker report. No image asset, recap or profile is provided."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Actually revises S2 to amber and removes premature knowledge/disclosure while preserving the hook, protection of ledger pages and delivery to Osa; adds no contradictory invented explanation.",
+          "Separates story chronology from reading order; S2 uses state at time 10 while audience disclosure is evaluated at reading position 3, with the first reveal remaining at 5.",
+          "Distinguishes event truth, Mara's acquisition of knowledge at 25 and reader knowledge; preserves S1's later-time blue cloak and private knowledge without forcing disclosure at reading position 1.",
+          "Replaces the universal flat-sheet claim with scoped intervals/entries and explicit unknowns for Osa/others; retains D-CLOAK/D-KNOW/M/KEY-HOLDER/S1/S2/S5 identities.",
+          "Attributes retained S1/S5 passes only to supplied prior records, scopes actual review to the excerpt and records, and leaves dependent asset/recap/profile checks pending if applicable rather than claiming they are unchanged or inspected.",
+          "Explains that structured continuity checks would evaluate explicit declarations only and does not claim a checker run, whole-book semantic verification or fresh vault consultation."
+        ],
+        "evidence_scope": "Actual local passage rewrite and manual temporal/knowledge reasoning over supplied records; no full manuscript, generated ledger validation, images or platform actions."
+      }
+    }
+  ]
+}

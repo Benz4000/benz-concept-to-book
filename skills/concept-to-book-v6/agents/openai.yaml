@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept to Book v6"
+  short_description: "Create books with continuity and verified local outputs"
+  default_prompt: "Use $concept-to-book-v6 to select the relevant project workflow, establish scoped preferences and source decisions, track continuity and reader knowledge, then create, revise and verify my requested book deliverables with clear evidence and recovery records."

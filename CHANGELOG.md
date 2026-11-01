@@ -2,6 +2,14 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V6 · 6.0.0 — Handle different books and sources
+
+- Select relevant project profiles and resolve source/adaptation conflicts.
+- Track story time, character knowledge and reader disclosure separately.
+- Check available production capabilities and the requested reading formats.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v6.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v6.0.0/concept-to-book-v6.0.0.zip)
+
 ## V5 · 5.0.0 — Make the workflow practical
 
 - Use ready project records and observable quality criteria.
