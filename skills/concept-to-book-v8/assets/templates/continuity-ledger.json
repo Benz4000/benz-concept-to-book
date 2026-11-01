@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "files": [
+    {"id": "FILE-DRAFT", "path": "manuscript.md"}
+  ],
+  "evidence": [
+    {"id": "EV-INTRO", "file": "FILE-DRAFT", "locator": "SC-INTRO: opening scene; replace with exact project locator"},
+    {"id": "EV-LOSS", "file": "FILE-DRAFT", "locator": "SC-LOSS: key dropped and coat changed; replace with exact project locator"},
+    {"id": "EV-FLASHBACK", "file": "FILE-DRAFT", "locator": "SC-FLASHBACK: five days earlier; replace with exact project locator"},
+    {"id": "EV-REVEAL", "file": "FILE-DRAFT", "locator": "SC-REVEAL: letter read; replace with exact project locator"}
+  ],
+  "scenes": [
+    {"id": "SC-INTRO", "scope": "BOOK1-DRAFT-A", "story_time": 10, "read_order": 1, "reader_ceiling": 1, "evidence": ["EV-INTRO"]},
+    {"id": "SC-LOSS", "scope": "BOOK1-DRAFT-A", "story_time": 20, "read_order": 2, "reader_ceiling": 2, "evidence": ["EV-LOSS"]},
+    {"id": "SC-FLASHBACK", "scope": "BOOK1-DRAFT-A", "story_time": 5, "read_order": 3, "reader_ceiling": 3, "evidence": ["EV-FLASHBACK"]},
+    {"id": "SC-REVEAL", "scope": "BOOK1-DRAFT-A", "story_time": 30, "read_order": 4, "reader_ceiling": 4, "evidence": ["EV-REVEAL"]}
+  ],
+  "facts": [
+    {"id": "FACT-KEY-BEFORE", "scope": "BOOK1-DRAFT-A", "entity": "CHAR-ADA", "key": "possesses-brass-key", "value": "yes", "start": 0, "until": 20, "evidence": ["EV-INTRO", "EV-FLASHBACK"], "decision_ids": ["DEC-KEY-LOSS"]},
+    {"id": "FACT-KEY-AFTER", "scope": "BOOK1-DRAFT-A", "entity": "CHAR-ADA", "key": "possesses-brass-key", "value": "no", "start": 20, "until": "open", "evidence": ["EV-LOSS"], "decision_ids": ["DEC-KEY-LOSS"]},
+    {"id": "FACT-COAT-BEFORE", "scope": "BOOK1-DRAFT-A", "entity": "CHAR-ADA", "key": "coat-color", "value": "blue", "start": 0, "until": 20, "evidence": ["EV-INTRO", "EV-FLASHBACK"], "decision_ids": ["DEC-COAT"]},
+    {"id": "FACT-COAT-AFTER", "scope": "BOOK1-DRAFT-A", "entity": "CHAR-ADA", "key": "coat-color", "value": "red", "start": 20, "until": "open", "evidence": ["EV-LOSS"], "decision_ids": ["DEC-COAT"]},
+    {"id": "FACT-CAPABILITY", "scope": "BOOK1-DRAFT-A", "entity": "CHAR-ADA", "key": "can-read-cipher", "value": "yes", "start": 0, "until": "open", "evidence": ["EV-INTRO"], "source_ids": ["SRC-CIPHER-NOTE"], "decision_ids": ["DEC-CIPHER"]}
+  ],
+  "transitions": [
+    {"id": "CHANGE-KEY", "scene": "SC-LOSS", "entity": "CHAR-ADA", "key": "possesses-brass-key", "from": "yes", "to": "no", "evidence": ["EV-LOSS"], "decision_ids": ["DEC-KEY-LOSS"]},
+    {"id": "CHANGE-COAT", "scene": "SC-LOSS", "entity": "CHAR-ADA", "key": "coat-color", "from": "blue", "to": "red", "evidence": ["EV-LOSS"], "decision_ids": ["DEC-COAT"]}
+  ],
+  "assertions": [
+    {"id": "ASSERT-KEY-FLASHBACK", "scene": "SC-FLASHBACK", "entity": "CHAR-ADA", "key": "possesses-brass-key", "value": "yes", "evidence": ["EV-FLASHBACK"]},
+    {"id": "ASSERT-COAT-FLASHBACK", "scene": "SC-FLASHBACK", "entity": "CHAR-ADA", "key": "coat-color", "value": "blue", "evidence": ["EV-FLASHBACK"]},
+    {"id": "ASSERT-CIPHER", "scene": "SC-REVEAL", "entity": "CHAR-ADA", "key": "can-read-cipher", "value": "yes", "evidence": ["EV-REVEAL"]}
+  ],
+  "topics": [
+    {"id": "TOPIC-LETTER-IDENTITY", "scope": "BOOK1-DRAFT-A", "reveal_from": 4, "evidence": ["EV-REVEAL"], "decision_ids": ["DEC-REVEAL"]}
+  ],
+  "knowledge": [
+    {"id": "KNOW-ADA-BEFORE", "scope": "BOOK1-DRAFT-A", "character": "CHAR-ADA", "topic": "TOPIC-LETTER-IDENTITY", "state": "unaware", "start": 0, "until": 30, "evidence": ["EV-INTRO", "EV-FLASHBACK"]},
+    {"id": "KNOW-ADA-AFTER", "scope": "BOOK1-DRAFT-A", "character": "CHAR-ADA", "topic": "TOPIC-LETTER-IDENTITY", "state": "knows", "start": 30, "until": "open", "evidence": ["EV-REVEAL"]}
+  ],
+  "knowledge_uses": [
+    {"id": "USE-LETTER", "scene": "SC-REVEAL", "character": "CHAR-ADA", "topic": "TOPIC-LETTER-IDENTITY", "evidence": ["EV-REVEAL"]}
+  ],
+  "reveals": [
+    {"id": "REVEAL-LETTER", "scene": "SC-REVEAL", "topic": "TOPIC-LETTER-IDENTITY", "evidence": ["EV-REVEAL"]}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {"id": "source-a", "path": "sources/source-a.md", "depends_on": []},
+    {"id": "decision-a", "path": "decisions/decision-a.json", "depends_on": ["source-a"]},
+    {"id": "chapter-a", "path": "manuscript/chapter-a.md", "depends_on": ["decision-a"]}
+  ],
+  "checks": [
+    {"id": "chapter-review", "inputs": ["chapter-a"], "status": "pending", "reviewed_sha256": {}, "reviewed_state_sha256": null}
+  ]
+}

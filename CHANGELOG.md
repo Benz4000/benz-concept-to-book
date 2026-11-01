@@ -2,6 +2,14 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V8 · 8.0.0 — Build and audit actual files
+
+- Import the supported Markdown/DOCX subset without silently removing meaningful content.
+- Build bounded reading/PDF outputs and audit actual exports.
+- Use change-impact/review packets and portable synthetic self-tests.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v8.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v8.0.0/concept-to-book-v8.0.0.zip)
+
 ## V7 · 7.0.0 — Make dependencies clear
 
 - Follow a fifteen-step chronological route while retaining outcome responsibilities.
