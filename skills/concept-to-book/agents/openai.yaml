@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept to Book"
+  short_description: "Build fiction books with traceable vault references"
+  default_prompt: "Use $concept-to-book to develop my fiction project through the requested book stage and record every vault reference used."
