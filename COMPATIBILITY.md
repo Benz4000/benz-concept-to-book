@@ -12,11 +12,11 @@ Codex is the primary environment. This publication uses ordinary skill folders, 
 
 ## Codex
 
-Use the install request in [Manual installation](INSTALL.md) or extract the selected folder into a documented local skill location such as `~/.agents/skills/concept-to-book-v3/`. Invoke it with `$concept-to-book-v3` or select it through `/skills` where supported. `agents/openai.yaml` supplies optional Codex presentation metadata. Restart Codex if a change is not detected. [Official skills guidance](https://learn.chatgpt.com/docs/build-skills).
+Use the install request in [Manual installation](INSTALL.md) or extract the selected folder into a documented local skill location such as `~/.agents/skills/concept-to-book-v4/`. Invoke it with `$concept-to-book-v4` or select it through `/skills` where supported. `agents/openai.yaml` supplies optional Codex presentation metadata. Restart Codex if a change is not detected. [Official skills guidance](https://learn.chatgpt.com/docs/build-skills).
 
 ## Claude Code — documented path, untested
 
-Copy the complete folder to `~/.claude/skills/concept-to-book-v3/` for personal local use, or `.claude/skills/concept-to-book-v3/` for a trusted project. Invoke `/concept-to-book-v3` or let the description trigger it. Keep relative references and helper files together. Codex UI metadata, invocation policy and model controls do not become Claude controls. Optional Python/Node/rendering capabilities depend on that environment. [Official Claude Code skills documentation](https://code.claude.com/docs/en/skills).
+Copy the complete folder to `~/.claude/skills/concept-to-book-v4/` for personal local use, or `.claude/skills/concept-to-book-v4/` for a trusted project. Invoke `/concept-to-book-v4` or let the description trigger it. Keep relative references and helper files together. Codex UI metadata, invocation policy and model controls do not become Claude controls. Optional Python/Node/rendering capabilities depend on that environment. [Official Claude Code skills documentation](https://code.claude.com/docs/en/skills).
 
 ## Claude web / Desktop Skills — documented ZIP flow, untested
 
@@ -24,7 +24,7 @@ Upload the versioned ZIP containing its single top-level skill folder through Cu
 
 ## Cursor — documented local folders, untested
 
-Copy the folder into `.agents/skills/concept-to-book-v3/` or `.cursor/skills/concept-to-book-v3/` in a project, or a documented user-level skills directory. Use `/` to select the skill or request a matching task. Direct GitHub marketplace import needs Cursor plugin packaging; this repository supplies standalone folders. No cloud sync is enabled by these instructions. [Official Cursor skills documentation](https://cursor.com/docs/skills).
+Copy the folder into `.agents/skills/concept-to-book-v4/` or `.cursor/skills/concept-to-book-v4/` in a project, or a documented user-level skills directory. Use `/` to select the skill or request a matching task. Direct GitHub marketplace import needs Cursor plugin packaging; this repository supplies standalone folders. No cloud sync is enabled by these instructions. [Official Cursor skills documentation](https://cursor.com/docs/skills).
 
 ## Gemini CLI — documented path, untested
 

@@ -2,6 +2,14 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V4 · 4.0.1 — Calibrate, preserve and learn
+
+- Scope preferences to the author, series, book or edition.
+- Test interacting choices with connected representative pilots.
+- Track drift, protected qualities, consequential source decisions and supported rework lessons.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v4.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v4.0.1/concept-to-book-v4.0.1.zip)
+
 ## V3 · 3.0.1 — Establish the foundation early
 
 - Recover story, craft, reader-package, visual and edition preferences before dependent work scales.
