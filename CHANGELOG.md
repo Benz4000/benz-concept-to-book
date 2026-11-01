@@ -2,6 +2,14 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V5 · 5.0.0 — Make the workflow practical
+
+- Use ready project records and observable quality criteria.
+- Prioritize by downstream impact and run optional mechanical checks.
+- Integrate actual reader feedback and retain release/session recovery records.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v5.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v5.0.0/concept-to-book-v5.0.0.zip)
+
 ## V4 · 4.0.1 — Calibrate, preserve and learn
 
 - Scope preferences to the author, series, book or edition.

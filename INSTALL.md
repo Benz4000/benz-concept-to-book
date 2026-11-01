@@ -5,8 +5,8 @@
 Copy this request into Codex:
 
 ```text
-Use skill-installer to install concept-to-book-v4 from
-https://github.com/Benz4000/benz-concept-to-book/tree/v4.0.1/skills/concept-to-book-v4
+Use skill-installer to install concept-to-book-v5 from
+https://github.com/Benz4000/benz-concept-to-book/tree/v5.0.0/skills/concept-to-book-v5
 Preserve an existing installation and ask before replacing it.
 ```
 
@@ -14,10 +14,10 @@ This prepares an installation request. It does not install anything automaticall
 
 ## Manual installation
 
-1. Download [concept-to-book-v4.0.1.zip](https://github.com/Benz4000/benz-concept-to-book/releases/download/v4.0.1/concept-to-book-v4.0.1.zip) from [release 4.0.1](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v4.0.1).
-2. Compare its SHA-256 with the release checksum file: `1657ca84ad5c8f39969844d688f2438bb4452fa90ae6f8c8d3788eec8a805a8e`.
-3. Extract its single `concept-to-book-v4/` folder into your chosen local skills directory. Preserve an existing installation.
-4. Confirm `concept-to-book-v4/SKILL.md` and its relative resources remain together. Select or invoke the skill in your host.
+1. Download [concept-to-book-v5.0.0.zip](https://github.com/Benz4000/benz-concept-to-book/releases/download/v5.0.0/concept-to-book-v5.0.0.zip) from [release 5.0.0](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v5.0.0).
+2. Compare its SHA-256 with the release checksum file: `57faffcbebe18709c65ff293cd7a032024e71d27ec423026561f76392535e575`.
+3. Extract its single `concept-to-book-v5/` folder into your chosen local skills directory. Preserve an existing installation.
+4. Confirm `concept-to-book-v5/SKILL.md` and its relative resources remain together. Select or invoke the skill in your host.
 
 ### Windows PowerShell example for Codex
 
@@ -25,10 +25,10 @@ Run in the directory containing the downloaded ZIP:
 
 ```powershell
 $skillRoot = Join-Path $HOME '.agents/skills'
-$skillPath = Join-Path $skillRoot 'concept-to-book-v4'
+$skillPath = Join-Path $skillRoot 'concept-to-book-v5'
 if (Test-Path -LiteralPath $skillPath) { throw 'Preserve the existing installation before continuing.' }
 New-Item -ItemType Directory -Path $skillRoot -Force | Out-Null
-Expand-Archive -LiteralPath './concept-to-book-v4.0.1.zip' -DestinationPath $skillRoot
+Expand-Archive -LiteralPath './concept-to-book-v5.0.0.zip' -DestinationPath $skillRoot
 Get-Item -LiteralPath (Join-Path $skillPath 'SKILL.md')
 ```
 
@@ -36,18 +36,18 @@ Get-Item -LiteralPath (Join-Path $skillPath 'SKILL.md')
 
 ```sh
 mkdir -p "$HOME/.agents/skills"
-if [ -e "$HOME/.agents/skills/concept-to-book-v4" ]; then
+if [ -e "$HOME/.agents/skills/concept-to-book-v5" ]; then
   echo 'Preserve the existing installation before continuing.' >&2
   exit 1
 fi
-unzip './concept-to-book-v4.0.1.zip' -d "$HOME/.agents/skills"
-test -f "$HOME/.agents/skills/concept-to-book-v4/SKILL.md"
+unzip './concept-to-book-v5.0.0.zip' -d "$HOME/.agents/skills"
+test -f "$HOME/.agents/skills/concept-to-book-v5/SKILL.md"
 ```
 
 After installation, try:
 
 ```text
-$concept-to-book-v4
+$concept-to-book-v5
 Help me develop this fiction concept into an outline.
 Use my existing decisions and tell me which references you consult.
 ```
