@@ -6,15 +6,15 @@ Take a fiction idea through planning, drafting, revision and the book files you 
 
 For example, give Codex a traveller's story premise and ask for an outline, then develop the manuscript while keeping character continuity and a record of the references that shaped it. Resume an existing project at its actual stage.
 
-**Current: V2 · 2.0.1 — Work toward clear outcomes.** [Setup page](https://Benz4000.github.io/benz-concept-to-book/) · [Download this version](https://github.com/Benz4000/benz-concept-to-book/releases/download/v2.0.1/concept-to-book-v2.0.1.zip) · [Manual installation](INSTALL.md)
+**Current: V3 · 3.0.1 — Establish the foundation early.** [Setup page](https://Benz4000.github.io/benz-concept-to-book/) · [Download this version](https://github.com/Benz4000/benz-concept-to-book/releases/download/v3.0.1/concept-to-book-v3.0.1.zip) · [Manual installation](INSTALL.md)
 
 ## Start with Codex
 
 Copy this request into Codex:
 
 ```text
-Use skill-installer to install concept-to-book-v2 from
-https://github.com/Benz4000/benz-concept-to-book/tree/v2.0.1/skills/concept-to-book-v2
+Use skill-installer to install concept-to-book-v3 from
+https://github.com/Benz4000/benz-concept-to-book/tree/v3.0.1/skills/concept-to-book-v3
 Preserve an existing installation and ask before replacing it.
 ```
 
@@ -22,9 +22,9 @@ This is an installation request, not an automatic installer. Review it and any r
 
 ## What this update adds
 
-- Audit the existing project against the requested result.
-- Group repeated passes by their purpose and completion evidence.
-- Reopen work when a relevant change or actual gap warrants it.
+- Recover story, craft, reader-package, visual and edition preferences before dependent work scales.
+- Keep deferred measurements separate from creative choices.
+- Let later stages concentrate on execution, revision and polish.
 
 ## Use it at your actual stage
 
@@ -46,6 +46,7 @@ Ask for a concept, outline, manuscript, reading proof or requested production pa
 
 | Version | Focus | Stable downloads |
 |---|---|---|
+| V3 · 3.0.1 | Establish the foundation early | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v3.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v3.0.1/concept-to-book-v3.0.1.zip) |
 | V2 · 2.0.1 | Work toward clear outcomes | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v2.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v2.0.1/concept-to-book-v2.0.1.zip) |
 | V1 · 1.0.1 | The complete writing route | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v1.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v1.0.1/concept-to-book-v1.0.1.zip) |
 

@@ -2,6 +2,14 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V3 · 3.0.1 — Establish the foundation early
+
+- Recover story, craft, reader-package, visual and edition preferences before dependent work scales.
+- Keep deferred measurements separate from creative choices.
+- Let later stages concentrate on execution, revision and polish.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v3.0.1) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v3.0.1/concept-to-book-v3.0.1.zip)
+
 ## V2 · 2.0.1 — Work toward clear outcomes
 
 - Audit the existing project against the requested result.

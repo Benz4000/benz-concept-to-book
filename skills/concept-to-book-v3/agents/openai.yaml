@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept to Book v3"
+  short_description: "Set book preferences early, then revise and polish"
+  default_prompt: "Use $concept-to-book-v3 to establish my book's creative, content, visual, and layout foundation before bulk work, then produce, revise, and polish it with traceable references."
