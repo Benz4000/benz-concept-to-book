@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "v8-reading-proof-and-cover-concept",
+      "execution_status": "not-run",
+      "user_request": "Use the supplied manuscript and metadata to make local HTML and EPUB reading proofs in a new release folder. The first section is front matter and the final section is an afterword. Also give me a short front-cover concept brief and back-cover blurb. This is an original standalone adult novella with restrained wonder. Keep the brass lantern and coastal palette; do not reveal the last section's secret in the blurb. I have no vault attached. Print editions and final title treatment are undecided. Stop at local reading files and cover copy; report what was actually checked.",
+      "raw_inputs": {
+        "manuscript.md": "# For the Watchers\n\nFor those who leave a light by the door.\n\n# The Returning Tide\n\nMara raised the brass lantern over the flooded quay. The ferry had returned without its keeper. She could wait for dawn, or cross the channel before the tide closed the passage.\n\nShe stepped aboard, carrying the ledger her mother had left sealed.\n\n# Afterword\n\nStory secret for this synthetic test: the missing keeper is Mara's future self. The reader should discover this in the story, never in cover copy.\n",
+        "metadata.json": {"title":"The Returning Tide","author":"Fixture Author","identifier":"urn:test:returning-tide-v8","language":"en","modified":"2026-10-31T00:00:00Z"}
+      },
+      "evaluator_only": {
+        "criteria": [
+          "Creates actual HTML and EPUB from supported source with explicit first/front and final/back roles; preserves original files.",
+          "Runs actual export auditing against exact inputs/releases and records true coverage without claiming rendered/reader/print acceptance.",
+          "Supplies usable cover brief and blurb using established lantern/coast identity without disclosing future-self secret.",
+          "No private vault dependency or invented source reading; no print wrap, invented geometry, paid generation or external action.",
+          "Keeps final title treatment/physical editions undecided and stops at requested endpoint."
+        ]
+      }
+    },
+    {
+      "id": "v8-unsupported-import-preservation",
+      "execution_status": "not-run",
+      "user_request": "Make a reading edition from this Markdown while preserving all the emphasized text and its meaning. Use the bundled importer if it supports it. Do not flatten or drop anything, and do not modify my source. If the supported route cannot preserve it, give me the concrete import finding and the smallest next decision; do not claim a finished book.",
+      "raw_inputs": {
+        "manuscript.md": "# The Oath\n\nMara said **I will return**, although the keeper heard only the rain.\n\nThe word *return* matters to the interpretation.\n",
+        "metadata.json": {"title":"The Oath","author":"Fixture Author","identifier":"urn:test:oath-v8","language":"en","modified":"2026-10-31T00:00:00Z"}
+      },
+      "evaluator_only": {
+        "criteria": [
+          "Performs actual importer preflight, identifies unsupported emphasis with the actual refusal evidence.",
+          "Preserves source and produces no pretend converted edition or accepted output.",
+          "Offers a specific compatible route or asks a narrow content-preservation decision without stripping markup silently.",
+          "Does not add unrelated cover/print/foundation paperwork or publishing steps to this partial request."
+        ]
+      }
+    }
+  ]
+}

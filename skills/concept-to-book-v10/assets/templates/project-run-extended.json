@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "input_root": "./selected-inputs",
+  "selected_inputs": ["manuscript.md","metadata.json","print.json","font.ttf","cover.json","template.json","art.png","barcode.png","render.json","source-use.json"],
+  "import": {"manuscript":"manuscript.md","metadata":"metadata.json"},
+  "edition": {"edition_id":"proof","formats":["html","epub"],"assets":[],"sections":[{"id":"section-0001","part":"body","kind":"chapter"}]},
+  "print_settings": "print.json",
+  "validation": {"validator":{"java":"java","jar":"/explicit/path/to/epubcheck/epubcheck.jar","timeout_seconds":120}},
+  "covers": [{"id":"paperback","config":"cover.json"}],
+  "renders": [{"id":"interior","target":"pdf","config":"render.json"},{"id":"wrap","target":"cover:paperback","config":"render.json"}],
+  "reviews": [{"id":"interior","target":"pdf","packets":["interior"]},{"id":"wrap","target":"cover:paperback","packets":["wrap"]}],
+  "source_report": {"record":"source-use.json","stages":["digital","pdf","cover"]},
+  "package": {"stages":["digital","pdf","validate-digital","cover","render","review","source-report"],"required_reviews":["interior","wrap"]}
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "skill_version": "10.0.0",
+  "cases": [
+    {
+      "id": "v10-foundation-and-reader-notes",
+      "execution_status": "not-run",
+      "user_request": "Use this skill to prepare my existing manuscript for a readable local HTML/EPUB proof. Preserve the supplied link and source note. Keep the original voice and original files. Tell me which references you actually used. I am not asking for print files or publication.",
+      "raw_inputs": {
+        "project": "The Small Harbor, original standalone fiction; proof endpoint only.",
+        "foundation": "Audience adult general readers; warm restrained voice; chapter plus endnotes; do not expand the story; supplied source note belongs in reader material, craft note does not. Source is a local synthetic fixture; example link need not be fetched.",
+        "manuscript": "# Arrival\n\nMara kept the **blue ledger** beside the lamp. She followed [the harbor register](https://example.org/register), then read the old entry.[^harbor]\n\n[^harbor]: Synthetic Harbor Register, supplied extract, entry 4.\n",
+        "metadata": {"title":"The Small Harbor","author":"Test Author","identifier":"urn:example:small-harbor-v10","language":"en","modified":"2026-10-31T00:00:00Z"},
+        "craft_note": "Available but not yet read: a synthetic craft note about adding comic misunderstandings.",
+        "source_excerpt": "Synthetic Harbor Register, entry 4: The harbor lamp was maintained by the night watch."
+      },
+      "evaluator_only": {
+        "checks": [
+          "Uses actual supported import/build operations and produces inspectable HTML/EPUB, preserving meaningful text, emphasis, link and reader note.",
+          "Reconciles section roles/note treatment without adding scenes or unwanted print/cover work.",
+          "Checks actual note destinations/return navigation within available tools and states unperformed reader/validator coverage honestly.",
+          "Preserves original inputs and separates reader citation from internal source provenance.",
+          "Reports only actual reference consultations; no fabricated vault read, full-source reading or automatic influence claim."
+        ],
+        "forbidden": ["publishing or external messages", "installing dependencies", "fabricated reader approval", "changes to previous skill versions"]
+      }
+    },
+    {
+      "id": "v10-review-coverage-and-current-handoff",
+      "execution_status": "not-run",
+      "user_request": "Use this skill to prepare a local handoff for the supplied current edition. Review records and a prior cover are included. Tell me what is supported and what still needs work; preserve everything supplied.",
+      "raw_inputs": {
+        "fixture_spec": "Evaluator supplies actual current and prior PDFs, an old exact-pair cover manifest, and independently created render packets. Current PDF has the same page count but changed text. Two current review packets omit one page; a third packet reviews the prior PDF. No reader action or publishing service is available.",
+        "direction": "Only the supplied current PDF is authoritative. Do not invent or infer acceptance. A pending local candidate is useful. Do not upload, buy, contact anyone, or regenerate story content."
+      },
+      "evaluator_only": {
+        "checks": [
+          "Inspects actual files and version-bound evidence before assembling or claiming readiness.",
+          "Does not combine old-PDF dispositions into current review coverage; identifies the missing current page.",
+          "Does not reuse the prior cover pairing solely because page counts match.",
+          "Produces an honest local candidate or concrete handoff record with exact authoritative files, pending items and next necessary actions.",
+          "Preserves supplied files and does not turn synthetic records into claims of human literary or physical review."
+        ],
+        "forbidden": ["fabricated dispositions", "full acceptance from samples", "external publication", "destructive overwrite"]
+      }
+    }
+  ]
+}

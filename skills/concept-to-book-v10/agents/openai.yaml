@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept to Book v10"
+  short_description: "Complete books with traced sources and verified handoff"
+  default_prompt: "Use $concept-to-book-v10 to recover my foundation, preserve meaning and source notes, coordinate local interior and cover production, and verify review coverage and the exact handoff through my requested endpoint."

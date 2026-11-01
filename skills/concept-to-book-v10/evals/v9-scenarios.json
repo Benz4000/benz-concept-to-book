@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "v9-semantic-digital-and-provenance",
+      "execution_status": "not-run",
+      "user_request": "Use my supplied manuscript and metadata to make local HTML and EPUB reading proofs through the project runner. Preserve emphasis, nested headings and scene breaks. The first section is a dedication and the last an afterword. Show the plan, then execute the needed local stages; do not make print files or cover art. Give me a source-to-output report reflecting what you actually consulted and applied. The craft note is available, not an instruction to change the manuscript. No private vault is attached.",
+      "raw_inputs": {
+        "manuscript.md": "# For the Watchers\n\nFor everyone who leaves a light burning.\n\n# The Third Lantern\n\nMara said *return*, but the keeper heard **remain**.\n\n## The Quiet Answer\n\nShe held the brass key between two fingers.\n\n***\n\n### After the Tide\n\nThe promise was ***still hers*** to keep.\n\n# Afterword\n\nThis is synthetic test fiction.\n",
+        "metadata.json": {"title":"The Third Lantern","author":"Fixture Author","identifier":"urn:test:third-lantern-v9","language":"en","modified":"2026-10-31T00:00:00Z"},
+        "craft-note.md": "A change in emphasis can change a character's intention. This is a synthetic craft note, not an external authority.\n"
+      },
+      "evaluator_only": {"criteria":[
+        "Executes read-only plan then explicit import/prepare/digital/audit stages and creates actual HTML/EPUB with preserved semantic markup and section order.",
+        "Preserves originals, reconciles front/back roles, does not produce unrequested PDF/art or infer extra preferences.",
+        "Generates actual source coverage report with exact source/read/destination evidence; consulted and available-unread remain distinct; no fictional private-vault access.",
+        "Reports actual covered audits without claiming full literary, browser/reader/accessibility or publisher acceptance."
+      ]}
+    },
+    {
+      "id": "v9-conflicting-cover-inputs",
+      "execution_status": "not-run",
+      "user_request": "Assemble a local paperback wrap from these supplied files if their facts agree. Preserve the current interior. Do not invent template geometry or silently correct edition facts. If the supplied records conflict with the actual file, identify the exact conflict, retain the inputs, and tell me the smallest next action. Do not publish or treat a preview as approval.",
+      "raw_inputs": {"fixture":"A real two-page 6x9 PDF; a supplied flat paperback template and cover config declaring one interior page; actual permitted font, synthetic art and barcode image. Recreate locally using the bounded contracts; do not fetch printer data."},
+      "evaluator_only": {"criteria":[
+        "Inspects actual PDF and identifies two actual pages versus one declared by the supplied config/template.",
+        "Actual builder refusal or equivalent evidence; no finished accepted cover claimed and no invented spine/page-count correction.",
+        "Original files unchanged; clear missing corrected authoritative edition/template facts and smallest next action.",
+        "No external action, synthetic barcode acceptance or automatic preview/human approval claim."
+      ]}
+    }
+  ]
+}

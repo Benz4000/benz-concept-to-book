@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "input_root": "./selected-inputs",
+  "selected_inputs": [
+    "manuscript.md",
+    "metadata.json"
+  ],
+  "import": {
+    "manuscript": "manuscript.md",
+    "metadata": "metadata.json"
+  },
+  "edition": {
+    "edition_id": "reading-proof",
+    "formats": [
+      "html",
+      "epub"
+    ],
+    "assets": [],
+    "sections": [
+      {
+        "id": "section-0001",
+        "part": "body",
+        "kind": "chapter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "epub_sha256": "REPLACE_WITH_EXACT_EPUB_SHA256",
+  "checks": [
+    {"area":"navigation","method":"human-reader","viewer":"Record actual EPUB reader/version","environment":"Record actual device/OS","coverage":"Record contents, chapter and note routes tested","observation":"Not inspected","status":"unrun","limitations":"No reader evidence yet"},
+    {"area":"reflow","method":"human-reader","viewer":"Record actual EPUB reader/version","environment":"Record viewport and text-size settings","coverage":"Record sections examined at each setting","observation":"Not inspected","status":"unrun","limitations":"No reader evidence yet"},
+    {"area":"image-descriptions","method":"assistive-technology","viewer":"Record actual reader and assistive technology/version","environment":"Record actual device/OS","coverage":"Record informative/decorative images actually checked","observation":"Not inspected","status":"unrun","limitations":"No reader evidence yet; not-applicable requires an explicit reason"},
+    {"area":"coverage","method":"human-reader","viewer":"Record actual EPUB reader/version","environment":"Record actual device/OS","coverage":"Record exact sections read and remaining gaps","observation":"Not inspected","status":"unrun","limitations":"Sample inspection does not establish complete reading"}
+  ]
+}

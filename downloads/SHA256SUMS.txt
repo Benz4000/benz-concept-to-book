@@ -7,3 +7,4 @@ a8b9abca3cff048aec190301ac56b228b9e8a00127a7d581df71e5c55da6b35e  concept-to-boo
 98f778c5c7a18e3bcb75d5f0bc87fc6e00843b30b74fbd6bd0a9f53e92699d1a  concept-to-book-v7.0.0.zip
 ff44915f2867aa1f4f498ad229ca7e95b743c32008a9acd15d5c6c56205d2dc5  concept-to-book-v8.0.0.zip
 58fd0db4f7eba0e99b188b3ae24d093c0261045138a9cdad528608989932ac47  concept-to-book-v9.0.0.zip
+0709fd39409571ae68a7a5a460f5fb6096d06e3a12fcdeeef6460307950bb5bd  concept-to-book-v10.0.0.zip

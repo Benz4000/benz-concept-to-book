@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "title": "Chapter review packet",
+  "criteria": ["Check factual support", "Check continuity", "Check reader clarity"],
+  "items": [
+    {
+      "id": "chapter-01",
+      "label": "Chapter 1",
+      "current": "manuscript/chapter-01.md",
+      "previous": "revisions/chapter-01-prior.md",
+      "context": ["decisions/chapter-01.json"],
+      "previews": ["proofs/chapter-01-page-001.png"]
+    }
+  ]
+}

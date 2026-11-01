@@ -6,15 +6,15 @@ Take a fiction idea through planning, drafting, revision and the book files you 
 
 For example, give Codex a traveller's story premise and ask for an outline, then develop the manuscript while keeping character continuity and a record of the references that shaped it. Resume an existing project at its actual stage.
 
-**Current: V9 · 9.0.0 — Connect local production.** [Setup page](https://Benz4000.github.io/benz-concept-to-book/) · [Download this version](https://github.com/Benz4000/benz-concept-to-book/releases/download/v9.0.0/concept-to-book-v9.0.0.zip) · [Manual installation](INSTALL.md)
+**Current: V10 · 10.0.0 — Close production evidence gaps.** [Setup page](https://Benz4000.github.io/benz-concept-to-book/) · [Download this version](https://github.com/Benz4000/benz-concept-to-book/releases/download/v10.0.0/concept-to-book-v10.0.0.zip) · [Manual installation](INSTALL.md)
 
 ## Start with Codex
 
 Copy this request into Codex:
 
 ```text
-Use skill-installer to install concept-to-book-v9 from
-https://github.com/Benz4000/benz-concept-to-book/tree/v9.0.0/skills/concept-to-book-v9
+Use skill-installer to install concept-to-book-v10 from
+https://github.com/Benz4000/benz-concept-to-book/tree/v10.0.0/skills/concept-to-book-v10
 Preserve an existing installation and ask before replacing it.
 ```
 
@@ -22,9 +22,12 @@ This is an installation request, not an automatic installer. Review it and any r
 
 ## What this update adds
 
-- Coordinate explicitly selected stages with a plan-first local runner.
-- Preserve supported semantic formatting and generate source-to-output reports.
-- Assemble bounded paperback covers, render actual previews and exercise book-scale recovery.
+- Combine exact-PDF page-review batches and expose missing coverage.
+- Control paragraph splits and complete image-caption groups.
+- Preserve reader links and collected source notes.
+- Run actual EPUBCheck with reader observations recorded separately.
+- Decode supported supplied and rendered edition barcodes.
+- Connect local production, covers, reports, review and candidate handoff.
 
 ## Use it at your actual stage
 
@@ -46,6 +49,7 @@ Ask for a concept, outline, manuscript, reading proof or requested production pa
 
 | Version | Focus | Stable downloads |
 |---|---|---|
+| V10 · 10.0.0 | Close production evidence gaps | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v10.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v10.0.0/concept-to-book-v10.0.0.zip) |
 | V9 · 9.0.0 | Connect local production | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v9.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v9.0.0/concept-to-book-v9.0.0.zip) |
 | V8 · 8.0.0 | Build and audit actual files | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v8.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v8.0.0/concept-to-book-v8.0.0.zip) |
 | V7 · 7.0.0 | Make dependencies clear | [Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v7.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v7.0.0/concept-to-book-v7.0.0.zip) |
