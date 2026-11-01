@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "trim_inches": [6, 9],
+  "margins_inches": {"top": 0.65, "bottom": 0.65, "inner": 0.7, "outer": 0.6},
+  "font": {"path": "fonts/your-authorized-serif.ttf", "embedding_authorized": true},
+  "font_size_pt": 11,
+  "leading_pt": 15,
+  "heading_size_pt": 16,
+  "paragraph_gap_pt": 6,
+  "section_start": "new_page",
+  "footer": {"page_numbers": true, "font_size_pt": 9, "offset_pt": 20}
+}

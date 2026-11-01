@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "purpose": "Synthetic V5 behavioral fixtures. Give executors only each selected case's user_request and raw_inputs; withhold evaluator_only and this file's evaluation metadata. Preserve the separate V4 seven-case suite.",
+  "execution_contract": {
+    "status": "not-run",
+    "allowed_outputs": "Textual test artifacts in an isolated output directory or response; optional local comparison of supplied text only.",
+    "prohibited_actions": "No live project edits, external research, messages, account actions, generation, rendering, uploads, publication, or invented reader participation. Unavailable artifacts remain unavailable.",
+    "output_word_budget_per_case": 650,
+    "result_storage": "Keep execution results outside these reusable fixtures, identifying the exact candidate skill version/hash and case inputs. Fixture validation alone is not behavioral evidence."
+  },
+  "cases": [
+    {
+      "id": "v5-outline-merge-rubric-priorities",
+      "execution_status": "not-run",
+      "user_request": "Use the supplied working brief to make a six-chapter outline for this original mystery. Update that brief and its next-work list so another writer can continue. Make the outline's acceptance criteria usable. I want only outline-stage work today. Return text artifacts only, within about 650 words total.",
+      "raw_inputs": {
+        "working-brief.md": "Project TRAIL; revision F2. Audience: older teens. Premise: volunteer route mapper Nia discovers that supposedly unsafe trail detours all bring business to one shuttle operator. Close third person through Nia; practical observation and dry warmth. Goal G1: a human explanation supported by clues the reader sees. Goal G2: Nia acts on her discovery and keeps her relationship with her aunt, who drives a shuttle. Accepted opening beat: her aunt lends Nia repaired binoculars without mentioning the repair. Preserve the aunt's competence; she need not be the culprit. Six chapters is today's deliverable. The culprit, motive and clue sequence are not yet chosen. No prose or outline has been approved beyond this opening beat.",
+        "next-work.md": "Existing list W1: polish the working title; W2: settle culprit and motive; W3: decide trim and obtain ISBN; W4: map clues and Nia's consequential choices; W5: pick a comma style. No ranking or completion evidence yet. Keep these IDs when updating this list.",
+        "availability.txt": "No vault, author profile, outside source, manuscript, visual assets or production destination is supplied. The town and shuttle business are fictional. The user has not requested real-world transport research."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Produces six causal chapter outlines with an intelligible human motive, observable clue progression, Nia's consequential action and a credible aunt relationship outcome.",
+          "Merges useful foundation fields into F2 and preserves G1/G2/W1-W5 identities; distinguishes supplied decisions, new outline proposals and unknowns without duplicating competing project records.",
+          "Provides concrete acceptance checks with inspected unit, observable evidence and unresolved status where appropriate; evaluates the actual outline against them rather than calling it good, complete or publishable without support.",
+          "Orders story logic and clue/agency work by its downstream effect on drafting, with a brief evidence-based rationale; does not let title polish, commas, trim or ISBN block the outline.",
+          "Retains the accepted opening beat and preference scope; claims no vault use, researched transport facts, final production data or whole-manuscript quality.",
+          "Delivers the outline and compact usable records within the requested scope; does not replace execution with an intake questionnaire or speculative prose/art/production work."
+        ],
+        "evidence_scope": "Supplied brief and new outline only. No prose, reader testing, research, art, layout or publication quality is exercised. Exact headings, template names, file count and one creative solution are not required."
+      }
+    },
+    {
+      "id": "v5-reader-feedback-executed-revision",
+      "execution_status": "not-run",
+      "user_request": "Use the four supplied reader comments to revise this passage. Decide which comments to act on and explain briefly. Preserve our reveal boundary and quiet voice. Give me the revised passage plus a compact feedback/change record and your review coverage. Text artifacts only, about 650 words total; do not recruit readers or review anything outside these inputs.",
+      "raw_inputs": {
+        "foundation-F4.txt": "Adult literary mystery, close third person through Tamsin. In this scene she returns a ledger despite wanting an apology. Keep practical gestures, uneasy restraint and the unexplained missing key. Neither the key's holder nor the missing sister's fate may be revealed here. Approved tonal example: He aligned the chipped cup with the saucer before answering. This illustrates restraint, not mandatory wording. No rule against explanation or dialogue elsewhere.",
+        "scene-S3.txt": "Tamsin waited beside the archive desk with the ledger under her arm. Oren stood in the doorway behind the keeper. He held out his hand. She wanted an apology before she returned it. She was angry because no apology had come. The keeper stepped aside. Oren moved closer. Tamsin laid the ledger on the desk. She had decided to return it even though she was angry. Oren reached for it. She shifted it away from the puddle beneath his sleeve. The hook behind him was empty. The key had hung there yesterday. She wondered who had taken it and whether it had anything to do with her missing sister. 'Page nineteen is loose,' she said. He drew his wet sleeve back. She took her hand off the cover.",
+        "reader-feedback.tsv": "These are four supplied comments from a completed synthetic beta round on scene S3, each read once; no demographic or whole-book claims are available. R1: 'I lost track of who held out his hand: Oren or the keeper. I reread the doorway sentence.' R2: 'Moving the ledger away from his wet sleeve says she still cares. Please keep that; the anger explanations repeat what I already understood.' R3: 'Tell us now that Oren took the key and that her sister is dead. I dislike waiting for answers.' R4: 'The key question interested me, but the jump to the loose page felt abrupt. One beat of her attention returning to the ledger would help.'",
+        "existing-issues.txt": "Issue E7: unclear doorway blocking, open, scene S3. Issue E8: repeated anger explanation, open, scene S3. No other passage or reader response is supplied."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Actually supplies a revised passage with clear actors, less repetitive anger explanation and coherent movement back from the hook to the ledger.",
+          "Triages all four supplied comments by the underlying problem, evidence and decision; connects R1/R2 to existing E7/E8 rather than creating duplicate unresolved issues.",
+          "Weighs R3 against the explicit reveal boundary instead of obeying its proposed solution or claiming a reader vote; does not invent Oren's guilt, the sister's fate, extra readers or further feedback.",
+          "Preserves ledger return, the protective sleeve/puddle gesture, deliberate key uncertainty, close viewpoint and restrained tone; shows concise before/after evidence of improvement and preservation.",
+          "Uses concrete passage-level acceptance checks, distinguishes its editorial assessment from the supplied reader evidence, and leaves post-revision reader reception untested.",
+          "Reports coverage as the supplied scene/comments/foundation and does not claim a whole-book read, empirical reader consensus or author-wide preference change."
+        ],
+        "evidence_scope": "One actual textual revision using supplied synthetic reader comments. The new passage has not been read by those readers. Several reasonable revisions can pass; exact phrasing is not required."
+      }
+    },
+    {
+      "id": "v5-cover-local-change-mechanical-limits",
+      "execution_status": "not-run",
+      "user_request": "For the paperback cover only, change the compass icon from blue to ochre (#C79235). Return the updated configuration entry and replacement asset brief, then update the ordered repair/check record from the diagnostics. Keep the approved hero composition, lettering, type settings and interior. Include useful optional mechanical checks and distinguish what is already evidenced from what would need to run. Text artifacts only, about 650 words total; no image/PDF generation, repair execution, upload or waiver.",
+      "raw_inputs": {
+        "cover-config-C4.txt": "Edition PB; selected export cover-C4.pdf; supplied SHA-256 identity: 4444444444444444444444444444444444444444444444444444444444444444. Icon CMP2: tint #31586E, x 42 mm, y 193 mm, placed size 7 x 7 mm, alpha mask M2. Hero H6: woman beside an empty observatory doorway, fixed crop HC2; keep face, hands and telescope. Type T8 and text TXT5 are approved; no textual copy change requested. Hardback uses its own icon CMP-H1. Canon CAN7 and interior I9 are outside this cover change.",
+        "asset-diagnostics.txt": "Supplied diagnostic D4 refers to cover-C4.pdf at the stated identity: H6 actual 960x1440 pixels, about 128 effective ppi at its chosen crop. Two generation requests for 2400x3600 returned 960x1440. CMP2 actual 2100x2100 pixels, about 7620 effective ppi at 7 mm. This job's saved service warning flags CMP2 above 600 ppi. No universal platform threshold is established. No actual image, mask or PDF is supplied.",
+        "existing-checks.txt": "R-TYPE4: supplied reviewer record for exact C4 export, type hierarchy/fit and barcode inspected, passed. M4: supplied local log for C4 input manifest, expected H6/CMP2/T8/TXT5 IDs present, passed; pixel/mask comparisons and rendered inspection did not run. pdffonts command unavailable. R-INT9: full interior reading review for I9, passed in supplied record; the interior is not present here. None of these records covers a new tint derivative or export.",
+        "repair-register.txt": "C21: new paperback icon tint request. C22: low hero effective resolution. C23: excessive icon resolution warning. Preserve source assets and mask geometry. Restoration/upscaling of H6 may be proposed with reconstruction disclosed, but has not been executed or approved as an accepted result. No replacement geometry, processed page count or new hash is available."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Produces the paperback tint configuration change and a usable scoped replacement brief, preserving position/size/mask, hero composition, T8/TXT5, hardback icon, canon and interior; does not merely describe a future update.",
+          "Keeps C21-C23 and ranks/queues work by actual warning, quality risk and downstream dependencies with justified reasoning; local authorized tint work is not blocked by missing full-production evidence.",
+          "Distinguishes low-resolution H6 from excessively dense CMP2, actual returned pixels from requested dimensions, and a job-specific warning from a universal standard; considers targeted remedies without downsizing or replacing the entire cover indiscriminately.",
+          "Links the tint/config/derivative to a new export identity and necessary icon/composite/rendered checks; retains unchanged interior/canon evidence and distinguishes unchanged type settings from verification of a future exported cover.",
+          "Attributes R-TYPE4/M4/R-INT9 to supplied records and exact input scope; makes no fresh visual inspection, computed hash, repaired-art acceptance or new-export pass claim.",
+          "Offers optional feasible mechanical comparisons with specific inputs/assertions and limits; treats unavailable pdffonts or unrun comparisons honestly, and does not use ID/hash/text equality as proof of visual quality, composition, barcode readability or native restoration detail."
+        ],
+        "evidence_scope": "Textual config/brief update and scoped evidence reasoning only. No binary asset inspection, actual rendering, font audit, upscaling, masking or platform validation is demonstrated. Supplied hashes are synthetic identity fixtures, not computed by the executor."
+      }
+    },
+    {
+      "id": "v5-session-recovery-exact-release-pair",
+      "execution_status": "not-run",
+      "user_request": "Resume after the interruption using these records. The latest key passage explains too much; repair it while keeping the accepted additions since the prior checked edition. Correct the supplied catalog sentence too. Reconcile the working release record and leave a concise next-session handoff, including what remains necessary for release. Text artifacts only, about 650 words total. Do not upload, publish, delete versions or roll back the whole project.",
+      "raw_inputs": {
+        "foundation-F6.txt": "The holder of the brass key remains unknown until chapter nine. Quiet close third person through Mara. Latest accepted changes: dedication is 'For Ana.' and glossary includes 'Tide stair: the harbor steps exposed at low water.' These supersede the old dedication and missing glossary entry.",
+        "source-snapshots.txt": "I7 source excerpt: Dedication 'For Ann.'; no Tide stair entry. Chapter four: 'The brass key was gone. Mara touched the empty hook, then closed the ledger.' I8 current source: Dedication 'For Ana.'; glossary includes the accepted Tide stair entry. Chapter four: 'The brass key was gone. Her brother had hidden it to protect her; she understood everything now. Mara closed the ledger.' Session note: the explanation was an attempted clarity repair after the accepted dedication/glossary changes. No other manuscript text is supplied.",
+        "release-manifest.txt": "Newer selection manifest M8 selects I8-current.pdf (SHA-256 8888888888888888888888888888888888888888888888888888888888888888) and cover-C5.pdf (SHA-256 5555555555555555555555555555555555555555555555555555555555555555). Intended edition PB. I8 built with 214 source pages; service-processed count is unknown. C5 template basis: I7 at 212 processed pages. Older sticky note: 'Final-v7, all checks and uploads passed.' No post-repair export exists.",
+        "evidence-and-transfer.txt": "Full proof check P7 passed I7.pdf, SHA-256 7777777777777777777777777777777777777777777777777777777777777777. Dated service receipt U7 and pair-validation V7 cover I7+C5 only; no proof approval/distribution record is supplied. Later transfer log U8: I8 upload started, progress 61%, connection interrupted; no completion receipt or processing result. Pending queue contains 'retry interior upload' with no version/hash. Actual PDFs and service access are unavailable in this exercise.",
+        "independent-catalog-copy.txt": "Separate working catalog description, not embedded in the interior or jacket: 'When the lantern fails, Mara choose the night crossing.' Correct only the grammar; the approved story claim remains."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Actually repairs the chapter-four passage without identifying the key holder; preserves the accepted Ana dedication and Tide stair glossary entry rather than reverting all of I8 to I7.",
+          "Actually corrects the independent catalog grammar while release checks remain unresolved, without adding story claims or treating the whole task as blocked.",
+          "Reconciles the newer M8 selection with the stale sticky note and exact I7-only P7/U7/V7 evidence; does not transfer passed status to I8 or a repaired future export.",
+          "Records the repaired source as newer than I8-current.pdf with rebuild/hash/selection pending; invents no current artifact hash or completed export and preserves prior versions/evidence for their actual scope.",
+          "Treats U8 as interrupted transfer, receipt/processing unknown; refuses to equate 61% progress or a queued retry with uploaded, validated, proof-approved or distributed status.",
+          "Identifies the 212-page C5 basis versus 214 source pages and unknown processed count as a dependency requiring exact edition/template reconciliation and intended interior-cover pair checks, without assuming definite fit or definite failure.",
+          "Leaves an actionable recovery record with current source/output distinction, exact known identities, completed textual work, retained evidence, unresolved dependencies and ordered next actions; any future retry is conditioned on the selected post-repair artifact and authorization, not blindly replayed."
+        ],
+        "evidence_scope": "Supplied source excerpt/catalog edits and session/release record reconciliation only. No full-manuscript review, rebuild, hash computation, PDF inspection, platform receipt, template validation or release action is demonstrated."
+      }
+    }
+  ]
+}

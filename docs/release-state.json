@@ -1,6 +1,6 @@
 {
-  "current_major": 8,
-  "current_version": "8.0.0",
+  "current_major": 9,
+  "current_version": "9.0.0",
   "releases": [
     {
       "major": 1,
@@ -65,6 +65,14 @@
       "skill_name": "concept-to-book-v8",
       "archive_name": "concept-to-book-v8.0.0.zip",
       "archive_sha256": "ff44915f2867aa1f4f498ad229ca7e95b743c32008a9acd15d5c6c56205d2dc5"
+    },
+    {
+      "major": 9,
+      "version": "9.0.0",
+      "tag": "v9.0.0",
+      "skill_name": "concept-to-book-v9",
+      "archive_name": "concept-to-book-v9.0.0.zip",
+      "archive_sha256": "58fd0db4f7eba0e99b188b3ae24d093c0261045138a9cdad528608989932ac47"
     }
   ]
 }

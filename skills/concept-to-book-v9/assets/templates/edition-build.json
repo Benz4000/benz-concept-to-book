@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "edition_id": "reading-proof",
+  "metadata": {
+    "title": "REPLACE WITH BOOK TITLE",
+    "author": "REPLACE WITH AUTHOR",
+    "identifier": "urn:uuid:REPLACE-WITH-STABLE-EDITION-IDENTIFIER",
+    "language": "en",
+    "modified": "2026-10-31T00:00:00Z"
+  },
+  "formats": ["html", "epub"],
+  "cover_image": "front-art",
+  "assets": [
+    {
+      "id": "front-art",
+      "path": "art/front-cover.png",
+      "role": "front-cover",
+      "alt": "REPLACE WITH MEANINGFUL DESCRIPTION OF THE ACTUAL COVER"
+    },
+    {
+      "id": "chapter-art",
+      "path": "art/chapter-one.png",
+      "role": "illustration",
+      "alt": "REPLACE WITH MEANINGFUL DESCRIPTION OF THE ACTUAL ILLUSTRATION"
+    }
+  ],
+  "font": null,
+  "sections": [
+    {"id": "title-page", "part": "front", "kind": "title-page", "title": "Title page", "source": "sections/title-page.json"},
+    {"id": "preface", "part": "front", "kind": "preface", "title": "Preface", "source": "sections/preface.json"},
+    {"id": "chapter-one", "part": "body", "kind": "chapter", "title": "Chapter One", "source": "sections/chapter-one.json"},
+    {"id": "afterword", "part": "back", "kind": "afterword", "title": "Afterword", "source": "sections/afterword.json"},
+    {"id": "sources", "part": "back", "kind": "sources", "title": "Sources", "source": "sections/sources.json"}
+  ]
+}
