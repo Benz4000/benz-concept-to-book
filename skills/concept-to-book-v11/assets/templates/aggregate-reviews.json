@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "pdf": "interior.pdf",
+  "packets": [
+    {"path": "REPLACE_WITH_ACTUAL_RENDER_PACKET_MANIFEST_PATH", "sha256": "REPLACE_WITH_EXACT_PACKET_MANIFEST_SHA256"}
+  ],
+  "dispositions": []
+}

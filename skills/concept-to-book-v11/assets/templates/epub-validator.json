@@ -1,0 +1,5 @@
+{
+  "java": "java",
+  "jar": "/explicit/path/to/epubcheck/epubcheck.jar",
+  "timeout_seconds": 120
+}

@@ -1,0 +1,7 @@
+{
+  "blocks": [
+    {"type": "paragraph", "text": "Mara counted the three lanterns beside the harbor. Every light marked a promise, and tonight she meant to keep hers."},
+    {"type": "image", "asset_id": "harbor-map", "caption": "The harbor lights and the route home."},
+    {"type": "paragraph", "text": "Across the water, a bell sounded once. She folded the map and stepped onto the waiting boat."}
+  ]
+}

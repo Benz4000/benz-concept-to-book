@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "source-001",
+      "path": null,
+      "availability": "unavailable",
+      "sha256": null,
+      "read_record": {
+        "status": "not-read",
+        "scope": "Unavailable; no file access claimed",
+        "locator": "Record the supplied citation or external identifier here",
+        "start_byte": null,
+        "end_byte": null,
+        "excerpt_sha256": null
+      },
+      "interpretation": "Record the supplied interpretation; this is a declaration.",
+      "scoped_decision": "Record exactly which decision is attributed, or explicitly state no application.",
+      "destinations": []
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "purpose": "Synthetic fixtures. Give executors only user_request/raw_inputs; reserve evaluator_only for assessment.",
+  "cases": [
+    {
+      "id": "outline-original-no-vault",
+      "execution_status": "not-run",
+      "user_request": "Use the skill to outline an original, text-only coastal mystery for adult readers. Give me eight concise chapter outlines. The protagonist is a retired ferry mechanic investigating why a sealed lighthouse clock keeps running. The answer should be human rather than supernatural, and the ending should preserve her friendship with the harbor clerk. I only want an outline today.",
+      "raw_inputs": {
+        "project_state": "New project. No manuscript, author profile, vault, visual assets, source works, or publisher selected.",
+        "accepted_preferences": "Close third person; dry warmth; practical mechanical details grounded in the fictional setting. Avoid a secret-society conspiracy. Eight chapters is this requested outline structure, not a permanent author preference."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Produces eight actionable chapters with a causal human mystery, stakes, and a friendship-preserving ending.",
+          "Separates explicit book preferences from labeled assumptions.",
+          "Keeps foundation proportional: no production intake, prose/art commission, or print pilot.",
+          "Reports no vault use; invents no external research.",
+          "Stops at the outline; production unknowns do not block it."
+        ],
+        "evidence_scope": "Outline and planning behavior only; no prose, rendering, source verification, or publishing quality demonstrated."
+      }
+    },
+    {
+      "id": "text-only-revision-preservation",
+      "execution_status": "not-run",
+      "user_request": "Revise the supplied scene only. Remove repetitive explanation and let the conflict emerge through action. Preserve the quiet voice, the intentional mystery about the missing key, and Lena choosing to return the ledger despite being angry. Use the supplied craft note where useful. Give me the revised scene and a brief account of the change and reference use.",
+      "raw_inputs": {
+        "foundation.txt": "Text-only standalone novel, close third person through Lena. Accepted example: She straightened his receipt before refusing him. This demonstrates restrained anger through ordinary action, not a required sentence pattern. No jokes in this scene. Do not explain the missing key yet.",
+        "craft-note.txt": "Supplied original workshop note, excerpt only: Put a character's immediate want into an observable action. If dialogue and action already convey the conflict, remove a subsequent explanation that merely repeats it. Do not remove uncertainty that the story intentionally reserves.",
+        "scene.txt": "Lena held the ledger against her coat. She wanted Ivo to apologize, and she was angry that he had not apologized. He placed a cup beside the empty hook where the key had hung. \"Tea?\" he asked. She did not answer because she was angry. Rain clicked in the stove pipe. She could keep the ledger until he said it. She wanted an apology. Ivo moved the cup a little farther from the edge. Lena set the ledger on the table and smoothed its bent cover. \"Page nineteen is loose,\" she said. He reached for it. She kept one finger on the cover a moment longer, then let go. Neither of them looked at the hook."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Actually revises the scene.",
+          "Cuts redundant explanation while preserving restrained anger, the unexplained key, and ledger return.",
+          "Shows selective before/after preservation evidence; claims no full-novel read.",
+          "Identifies the supplied workshop excerpt and its limited scope/application, not an original author study.",
+          "Does not turn this scene into a universal ban on humor or explanation."
+        ],
+        "evidence_scope": "One scene, one supplied excerpt, and preservation reasoning; no whole-manuscript verdict."
+      }
+    },
+    {
+      "id": "ongoing-manuscript-scoped-preferences",
+      "execution_status": "not-run",
+      "user_request": "We are halfway through the book. Revise only this scene in chapter four to make the farewell less jokey. Keep our approved opening and plot. Update the preference record if needed, but do not make this a rule against humor everywhere.",
+      "raw_inputs": {
+        "author-profile.txt": "Explicit user preference from an earlier project: dry humor is welcome when it serves character. Candidate inference from two short accepted passages: perhaps the author always prefers minimal dialogue. This inference has never been confirmed.",
+        "foundation.txt": "Current book: a restrained family drama with occasional dry humor. Chapter-four farewell: newly requested exception, no jokes at the emotional departure. Approved chapters one to three and outline are accepted; their text is not supplied for editing. Current endpoint is a manuscript. A previous edition used zero blank pages; no edition policy has been selected here.",
+        "ch04-scene.txt": "Mara shut the suitcase. \"At least the train will have better conversation than you,\" she said. Her father bowed. \"A low bar.\" Neither moved toward the door. He put her old lunch tin beside the suitcase. \"You forgot this.\" She picked it up, then set it down again. \"Keep it until I come back.\""
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Revises only the farewell, preserving the lunch-tin promise and plot.",
+          "Records a local humor exception without erasing the author-level allowance.",
+          "Keeps minimal-dialogue preference an unconfirmed candidate.",
+          "Preserves accepted work without restarting or demanding a new full foundation.",
+          "Imports no old edition policy; discloses unseen/unreviewed material."
+        ],
+        "evidence_scope": "One supplied scene and preference resolution; unseen approved chapters remain unreviewed."
+      }
+    },
+    {
+      "id": "illustrated-connected-pilot-plan",
+      "execution_status": "not-run",
+      "user_request": "Plan a small connected pilot for my illustrated novella before we scale up. Use the supplied scene concept through outline, prose, a map caption, an art brief, page assembly, and proof checks. Produce the pilot plan and text briefs only today; do not generate images or final pages.",
+      "raw_inputs": {
+        "foundation.txt": "Adult illustrated novella. Reading-proof endpoint; no printer or ISBN. Wry, close third person. Protagonist Ada has a silver braid. Muted blue and ochre artwork, one wide image for the selected harbor scene. Text must remain readable; do not rewrite prose merely to fill page space. Final page count and cover geometry unknown.",
+        "pilot-unit.txt": "Ada crosses a ferry gangway carrying her brother's cracked compass. She discovers a route mark hidden on the underside of the harbor map and decides to take the night crossing. The reader must not learn who marked it. The wide illustration should preserve the gangway's isolation. The map caption can locate the ferry route but must not explain the mark.",
+        "accepted-material.txt": "A supplied textual art direction exists, but no actual image, manuscript sample, typography proof, or rendered page has been accepted. No manufacturing specification is available."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Uses the same unit and reveal limits through all requested pilot stages.",
+          "Identifies concrete interactions: wide art versus legibility, caption versus spoiler boundary.",
+          "Produces only plan/text briefs; claims no generated images or inspected pages.",
+          "Defines what the pilot can establish, open questions, and reuse of accepted results.",
+          "Defers counts, ISBN, spine, and printer facts without blocking this plan."
+        ],
+        "evidence_scope": "Pilot design and textual briefs only; no rendered or visual production execution."
+      }
+    },
+    {
+      "id": "unavailable-vault-honest-excerpt",
+      "execution_status": "not-run",
+      "user_request": "Improve this paragraph using whatever supported guidance is available. The old report mentions a vault guide, but we cannot access that file in this test. Use the supplied excerpt if it helps, and tell me exactly what you used.",
+      "raw_inputs": {
+        "availability.txt": "vault/Quiet-Wonder-Guide.md is unavailable. The full original essay is also unavailable. No browser or other sources are supplied for this exercise.",
+        "old-report.txt": "A historical note says an earlier draft used Quiet Wonder Guide. It gives no quotations, read locations, or evidence about this paragraph.",
+        "supplied-excerpt.txt": "Original teacher note, selected paragraph only: Let wonder begin with a familiar object behaving in one unfamiliar way. Give the observer a practical response before expanding the explanation. This is workshop advice, not a factual claim about any culture.",
+        "paragraph.txt": "The room was magical and full of wonder. Neri was amazed by the magic. The spoon on the table cast two shadows, though there was one lamp. This was very mysterious and astonishing to Neri.",
+        "foundation.txt": "Original fantasy, one-paragraph revision. Preserve the unexplained second shadow. No requirement to imitate a named author or expand the scene."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Revises with a practical response to the spoon while retaining mystery.",
+          "Names the supplied teacher excerpt and its limited actual use.",
+          "Distinguishes unavailable vault guide/original essay from the excerpt; invents no content or fresh consultation.",
+          "Treats old report as limited historical documentation, not current use evidence.",
+          "Completes revision without blocking on vault access or adding unsupported lore."
+        ],
+        "evidence_scope": "Supplied paragraph and excerpt; inaccessible sources remain unverified."
+      }
+    },
+    {
+      "id": "late-change-linked-outputs",
+      "execution_status": "not-run",
+      "user_request": "For Book Two only, change adult Sela's amber cloak to slate blue. Book One's childhood amber cloak stays. Also correct the Mirelight custom against the supplied canon note. Update affected text and art briefs, list assets/checks needing renewal, and record why the rework happened. Do not generate images.",
+      "raw_inputs": {
+        "canon-note.txt": "Mirelight is an invented custom in this fictional world. Celebrants tie unpainted ribbons, never bells, to the bridge rail. No claim about a real culture is intended.",
+        "b1-ch02.txt": "Ten-year-old Sela ran home in her amber cloak.",
+        "b2-ch03.txt": "Sela drew her amber cloak over her shoulders. Bells clicked against the bridge rail for Mirelight as she waited for the courier.",
+        "b2-profile.txt": "Adult Sela wears an amber traveling cloak. At Mirelight she hangs a bell on the bridge.",
+        "b2-art-brief.txt": "Asset A2: adult Sela in an amber cloak beside the ribbon-covered bridge; no courier visible.",
+        "b2-cover-brief.txt": "Asset C2: adult Sela, amber cloak, portrait above a distant bridge. No Mirelight ceremony or courier shown.",
+        "current-records.txt": "Decision D-CLOAK applied to b1-ch02, b2-ch03, b2-profile, A2, C2 without age scoping. Canon source S-RITE is canon-note.txt. Review R-PROSE covered b2-ch03 and b2-profile; R-ART checked old A2/C2 briefs. Only text briefs are supplied: finished images, layouts, final counts, and actual review logs are unavailable."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Updates Book Two text and A2/C2 briefs to slate blue; preserves Book One childhood amber.",
+          "Corrects faulty bells to unpainted ribbons; invents no real-cultural citation.",
+          "Links scoped appearance and canon interpretation to changed destinations/checks.",
+          "Leaves unavailable image production/inspection and rendering checks pending.",
+          "Separates new appearance direction from existing canon mismatch as rework causes.",
+          "Scopes rechecks; claims neither whole-series rewrite necessity nor unchanged pagination without evidence."
+        ],
+        "evidence_scope": "Text and brief updates plus dependency/rework records; no image or rendered-output verification."
+      }
+    },
+    {
+      "id": "cover-change-repair-and-status",
+      "execution_status": "not-run",
+      "user_request": "For Book Two's hardcover jacket only, make the inner-flap synopsis distinct from the back blurb using the supplied story facts. Keep its restrained tone and preserve the ending mystery. Then give me a connected cover-check and technical repair/handoff plan. Keep the approved art composition and series lettering. Do not generate images, build PDFs, upload, or waive warnings today.",
+      "raw_inputs": {
+        "foundation.txt": "Series preference: original silver logo, fixed title/author hierarchy, book-specific scenes with selective casts. Book Two jacket exception: distinct inner-flap prose; paperback copy is unchanged. Approved composition is Mara on a gangway with a folded map; keep her face, map and isolated walkway. Supplied example is a textual approval record, not an available image. No accepted rendered jacket is supplied. Do not infer silver lettering for other projects.",
+        "story-and-copy.txt": "Story facts: Mara discovers an unsigned route mark inside a folded harbor map, refuses the clerk's offer to erase it, and chooses the night ferry to learn who left it. The maker and journey outcome remain unknown. Back blurb: An unsigned mark interrupts Mara's quiet work at the harbor. When the clerk offers to erase it, she chooses the night ferry instead. Who has asked her to follow? Current inner flap repeats that blurb exactly.",
+        "layout-and-assets.txt": "Book Two has the series' longest title, The Cartographer of the Unlit Harbor. The selected jacket has a narrower text column and a wider front crop than its paperback. Exact font measurements and template files are unavailable. Supplied diagnostics report hero art at 1024x1536, about 145 effective ppi in the chosen crop; two requests for 2304x3456 still returned 1024x1536. A small compass icon is about 2050 effective ppi. This job's saved platform warning flags that icon above 600 ppi; this is a supplied historical warning, not a universal platform rule. No actual image or PDF files are provided.",
+        "approved-remedies.txt": "For this Book Two repair the user permits restoration/upscaling of the approved hero composition if needed, with reconstructed detail disclosed. Preserve original source, faces, hands, map, lettering, geometry and barcode; no new scene. For an excessive-resolution icon, a targeted image-and-mask derivative may be considered. Today only plan these actions and identify checks; do not execute them.",
+        "file-records.txt": "Old summary says Final-v1 is current and all uploads passed. Newer manifest selects design D2 and print file C2, but no exact file hashes or actual files are supplied here. Cover C2 was reportedly validated with OLD interior I1. Intended corrected interior I2 has a transfer-progress record only; dated receipt and full-pair validation are unconfirmed. Book Two jacket template was requested using a provisional interior count; actual processed count is unknown. No proof approval/distribution record exists."
+      },
+      "evaluator_only": {
+        "observable_behaviors": [
+          "Actually writes a distinct inner-flap synopsis using only supplied facts, preserving tone and unknown maker/outcome; leaves paperback and series identity unchanged.",
+          "Keeps the jacket-specific override scoped; does not describe the unavailable approved art or a textual plan as freshly visually inspected.",
+          "Plans a connected check for the long title, restrictive crop, narrow copy, and exact edition geometry; records missing measurement/template facts rather than inventing them.",
+          "Distinguishes insufficient hero resolution from excessive icon resolution and failed requested dimensions from actual delivered pixels; proposes only permitted, targeted remedies with honest restoration provenance.",
+          "Links decisions and protected layers to affected copy/art/config/template/file-pair checks, preserving unrelated evidence only conditionally on unchanged inputs.",
+          "Reconciles the stale Final-v1 summary with the newer selected manifest; does not claim receipt of I2, validation of C2+I2, processed counts, proof approval, or distribution.",
+          "Attributes rework to the new flap preference, observed output-size limitation and stale records without inventing earlier preventability; performs no generation, PDF build, upload or waiver."
+        ],
+        "evidence_scope": "One synthetic jacket-copy revision plus planning, dependency and status reasoning; no actual image generation, restoration, font fitting, PDF rendering, barcode audit, platform verification or upload."
+      }
+    }
+  ]
+}

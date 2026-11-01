@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "edition_identifier": "REPLACE_WITH_EXPLICIT_EDITION_ISBN13",
+  "source_barcode": "assets/supplied-barcode.png",
+  "source_barcode_sha256": "REPLACE_WITH_EXACT_SUPPLIED_BARCODE_SHA256",
+  "cover_pdf": "cover.pdf",
+  "cover_pdf_sha256": "REPLACE_WITH_EXACT_COVER_PDF_SHA256",
+  "barcode_region_pt": [0, 0, 0, 0],
+  "dpi": 300
+}

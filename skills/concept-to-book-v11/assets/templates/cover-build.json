@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "template": "supplied-template.json",
+  "interior": {
+    "path": "interior.pdf",
+    "sha256": "REPLACE_WITH_EXACT_INTERIOR_PDF_SHA256",
+    "page_count": 0,
+    "edition": "REPLACE_WITH_EXACT_TEMPLATE_EDITION"
+  },
+  "fonts": [
+    {"id": "body", "path": "assets/permitted-font.ttf", "embedding_authorized": true}
+  ],
+  "images": [
+    {"id": "front-art", "path": "assets/front.png", "role": "art", "panel": "front", "box": [0, 0, 0, 0], "usage_authorized": true},
+    {"id": "barcode-image", "path": "assets/supplied-barcode.png", "role": "barcode", "panel": "back", "box": [0, 0, 0, 0], "usage_authorized": true}
+  ],
+  "texts": [
+    {"id": "title", "text": "REPLACE WITH REAL TITLE", "font": "body", "panel": "front", "box": [0, 0, 0, 0], "font_size_pt": 24, "leading_pt": 28, "rotation": 0, "color_rgb": [0, 0, 0]},
+    {"id": "back-copy", "text": "REPLACE WITH REAL BACK COPY", "font": "body", "panel": "back", "box": [0, 0, 0, 0], "font_size_pt": 12, "leading_pt": 16, "rotation": 0},
+    {"id": "spine-copy", "text": "REPLACE WITH REAL SPINE COPY", "font": "body", "panel": "spine", "box": [0, 0, 0, 0], "font_size_pt": 9, "leading_pt": 11, "rotation": 90}
+  ]
+}

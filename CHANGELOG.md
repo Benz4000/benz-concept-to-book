@@ -2,6 +2,13 @@
 
 Preserved checkpoints are published in order. Actual public dates belong to GitHub releases; this is not a backdated publication history.
 
+## V11 · 11.0.0 — Preserve richer manuscripts and verify releases
+
+- Preserve supported DOCX tables, multi-paragraph collected notes and internal bookmark/simple REF links through actual HTML, EPUB and PDF.
+- Run a local Chromium content-reading harness and scoped PDF/Poppler checks; retain exact-release reader and proof evidence.
+
+[Release](https://github.com/Benz4000/benz-concept-to-book/releases/tag/v11.0.0) · [ZIP](https://github.com/Benz4000/benz-concept-to-book/releases/download/v11.0.0/concept-to-book-v11.0.0.zip)
+
 ## V10 · 10.0.0 — Close production evidence gaps
 
 - Combine exact-PDF page-review batches and expose missing coverage.

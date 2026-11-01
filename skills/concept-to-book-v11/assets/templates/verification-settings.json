@@ -1,0 +1,10 @@
+{
+  "browser": {
+    "node": "C:/Tools/node/node.exe",
+    "playwright_module": "C:/Tools/node_modules/playwright-core/index.js",
+    "browser": "C:/Tools/Chromium/chrome.exe",
+    "conditions": [{"width":360,"height":800,"text_scale":1},{"width":768,"height":900,"text_scale":1.5}],
+    "timeout_seconds": 180
+  },
+  "required_checks": ["browser", "human-reader"]
+}

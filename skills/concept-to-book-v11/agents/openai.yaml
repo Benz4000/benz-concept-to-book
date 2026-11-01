@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept to Book v11"
+  short_description: "Preserve manuscripts and verify actual reading releases"
+  default_prompt: "Use $concept-to-book-v11 to recover my foundation, preserve meaningful manuscript structure, build the requested book and covers, and verify exact release files with honest reader and proof evidence."

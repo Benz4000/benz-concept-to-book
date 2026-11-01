@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "artifact_sha256": "replace-with-computed-exact-release-sha256",
+  "checks": [{
+    "id": "physical-proof-1",
+    "method": "physical-proof",
+    "environment": "Record actual edition, proof and print conditions when inspected",
+    "coverage": "Unrun: record actual pages and cover surfaces after inspection",
+    "observation": "No physical proof has been inspected",
+    "status": "unrun",
+    "limitations": "Template only; no approval or physical test is established",
+    "attachments": []
+  }]
+}

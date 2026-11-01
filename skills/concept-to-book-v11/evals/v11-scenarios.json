@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "skill_version": "11.0.0",
+  "cases": [
+    {
+      "id": "v11-rich-manuscript-proof",
+      "execution_status": "not-run",
+      "user_request": "Produce local HTML and EPUB proofs from the supplied DOCX and metadata. Preserve its prose, paragraph structure, table/header/cell order, emphasis, internal references and source-note navigation. Collected endnotes are acceptable. Explain conversion limits and actual source use. Stop at the digital proof.",
+      "raw_inputs": {
+        "files": [
+          "book.docx",
+          "metadata.json",
+          "optional-craft-note.txt"
+        ]
+      },
+      "evaluator_only": {
+        "checks": [
+          "Uses supported explicit extended DOCX without silently flattening meaningful content",
+          "Actual HTML and EPUB preserve cell/note order, semantic runs and cross-reference destinations",
+          "Stops before unrequested print/cover work or literary expansion",
+          "Reports actual sources and does not claim reading an unavailable original vault"
+        ]
+      }
+    },
+    {
+      "id": "v11-exact-release-verification",
+      "execution_status": "not-run",
+      "user_request": "Check the current EPUB and PDF using the supplied tool settings. Preserve the files. Use prior proof evidence only if it still applies. Report actual reader/PDF coverage and unresolved human, device and physical-proof requirements, and prepare a local evidence handoff.",
+      "raw_inputs": {
+        "files": [
+          "current.epub",
+          "current.pdf",
+          "previous.pdf",
+          "previous-observations.json",
+          "verification-settings.json",
+          "print-verification.json",
+          "foundation.md"
+        ]
+      },
+      "evaluator_only": {
+        "checks": [
+          "Executes available actual reader/PDF tools rather than only describing tests",
+          "Rejects/reports stale observations bound to previous PDF",
+          "Separates local Chromium harness, native EPUB app, automated PDF preflight, human/physical observations and approval",
+          "Actual release/evidence identities preserved and readiness remains pending for unrun required checks",
+          "No uploads, physical orders, reader contact or fabricated approval"
+        ]
+      }
+    }
+  ]
+}
