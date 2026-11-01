@@ -1,1 +1,2 @@
 f5ae1be76c3cd50e50a116e5c40e05f496c1c1d9057df7ebf61b4c5f9dfd66ce  concept-to-book-v1.0.1.zip
+06741f4814781c5584b31ed01d4a798310b6e2ef76f21b3b828f703a55c12225  concept-to-book-v2.0.1.zip

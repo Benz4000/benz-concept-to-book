@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept to Book v2"
+  short_description: "Turn book goals into clear stages and focused reviews"
+  default_prompt: "Use $concept-to-book-v2 to identify my book goals, audit the current work, consolidate repeated passes, and complete the requested stage with traceable references."
